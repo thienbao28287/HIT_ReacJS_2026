@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #142e6c;
+  color: #fff;
+  text-align: center;
+}
+.footer-main-content {
+  padding-top: 50px;
+}
+.ft__social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.ft__social .circle {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-color: #559bcc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.ft__social .circle:hover {
+  background-color: #142e6c;
+}
+.ft__author p:first-child {
+  font-size: 14px;
+}
+.ft__author p:last-child {
+  font-size: 13px;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0rem;
+}
+a {
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.7);
+  font-family: "Poppins", sans-serif;
+}
+.Header {
+  background-color: rgba(24, 54, 117, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.main__Content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header__menu li {
+  padding: 5px 10px;
+}
+.header__menu li > a:hover {
+  text-decoration: underline;
+}
+.Dropdown {
+  position: relative;
+}
+.Dropdown:hover .sub__menu {
+  display: block;
+}
+.sub__menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.sub__menu a {
+  color: black;
+}
+.db_menu {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  width: 200px;
+  background-color: #fff;
+  display: none;
+}
+
+.deep_dr:hover .db_menu {
+  display: block;
+}
