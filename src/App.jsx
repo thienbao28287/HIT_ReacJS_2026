@@ -1,9 +1,14 @@
 import { useState, useEffect } from "react";
-import { Count } from "./components/Count/Count";
+import { Header } from "./components/Header/Header";
+import { Main_Content } from "./components/Main_Content/Main_Content";
+
 function App() {
   return (
     <>
-      <Count></Count>
+      <div>
+        <Header></Header>
+        <Main_Content></Main_Content>
+      </div>
     </>
   );
 }
