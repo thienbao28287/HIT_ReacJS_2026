@@ -1,9 +1,16 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { Haha } from "./components/Haha/Haha";
+import LoginForm from "./components/LoginForm/LoginForm";
 
-export const App = () => {
+function App() {
   return (
     <div>
-      <h1>Phamm Thien Bao</h1>
+      <LoginForm></LoginForm>
     </div>
   );
-};
+}
+
+export default App;
